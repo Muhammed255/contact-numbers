@@ -1,0 +1,31 @@
+{
+  "name": "contact-backend",
+  "version": "1.0.0",
+  "description": "create a contact numbers online",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -r esm app.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammed255/contact-numbers.git"
+  },
+  "author": "Mohamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muhammed255/contact-numbers/issues"
+  },
+  "homepage": "https://github.com/Muhammed255/contact-numbers#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
