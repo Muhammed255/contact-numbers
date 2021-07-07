@@ -13,9 +13,5 @@ export default {
         } catch (err) {
             res.status(500).json({error: err});
         }
-    },
-
-    getAllContacts(req, res, next) {
-        
     }
 }
